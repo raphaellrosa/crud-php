@@ -1,0 +1,62 @@
+body {
+	background-color:#C0C0C0;
+	font-family:Verdana, Arial;
+}
+/*TOPO*/
+#top h1{
+
+	text-align:right;
+	background-color:#D3D3D3;
+	padding:10px 25px 10px 0;
+	
+}
+
+#top p{
+	
+	text-align:right;
+	background-color:#C0C0C0;
+	padding-right:50px;
+}
+/*MENU*/
+}
+#menu-estoque ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+#menu-estoque ul li { display: inline; }
+
+#menu-estoque ul li a {
+	font-family:Verdana, Arial;
+	padding: 2px 10px;
+	display: inline-block;
+	margin-left:30px;
+	color:#DCDCDC;
+	font-size:20px;
+	text-decoration:none;
+}
+/*CONTEUDO*/
+#content{
+	width:100%;
+	height:600px;
+	padding-top:20px;
+	background-color:#FFFFFF;
+	margin-bottom:10px;
+	border: #000000 solid 1px;
+}
+
+.subs{
+	font-weight:lighter;
+	margin:20px;
+}
+form {
+	margin:20px;
+}
+
+/*RODAPÉ*/
+#footer{
+	width:100%;
+	height:120px;
+	background-color:#4682B4;
+}
+ 

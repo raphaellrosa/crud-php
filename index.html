@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sistema Gerenciador de Estoque</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</head>
+	<body>
+		<div id="top"><h1>Sistema Gerenciador de Estoque</h1>
+		<p>Área de Administrativa</p></div>
+		<hr/>
+		
+		<div id="menu-estoque">
+			<ul>Estoque
+				<li><a href="#">Adicionar</a></li>
+				<li><a href="lista.php">Listar</a></li>
+				<li><a href="edita.php">Editar</a></li>
+				<li><a href="exclui.php">Exluir</a></li><br/>
+			</ul>
+		</div>
+		
+		<div id="content">
+			<h3 class="subs">ADICIONAR ITEM AO ESTOQUE:</h3>
+			
+			<form name="F_cad" method="post" action="adiciona.php">
+			
+			<label>id</label><br/>
+			<input type="text" name="F_Id" size="10" maxlength="50"/><br/><br/>
+			
+			<label>Nome</label><br/>
+			<input type="text" name="F_Nome" size="30" maxlength="50"/><br/><br/>
+			
+			<label>Descrição</label><br/>
+			<textarea name="F_Desc" cols="50" rows="7"></textarea><br/><br/>
+			
+			<label>Preço</label><br/>
+			<input type="text" name="F_Preco" size="7"/><br/><br/>
+			
+			<input type="submit" value="Gravar"/>
+			<input type="reset" value="Limpar"/>
+		
+		</form>
+		</div>
+		
+		<div id="footer"></div>
+	</body>
+</html>
